@@ -1,6 +1,6 @@
 # Results Reveal
 
-Scrapes your Tabula module results page and plays them back as an animated reveal.
+Warwick releases your end of your results in the most boring way possible - a sheet of paper with some numbers on it. Wouldn't it be better to get it presented to you in a fancy animated slideshow? This repo does it all for you, it parses your results page without you having to see it and puts it into a fancy slideshow to make results day more exciting!
 
 ---
 

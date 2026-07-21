@@ -1,0 +1,9 @@
+auth_state.json
+results.json
+test_results.json
+raw_page.html
+raw_page.txt
+*.csv
+__pycache__/
+*.pyc
+.venv/

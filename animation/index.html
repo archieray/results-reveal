@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Results Reveal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <section id="intro" class="screen active">
+      <h1>Your Year Results</h1>
+      <button id="start-btn">Tap to Reveal</button>
+    </section>
+
+    <section id="title-card" class="screen">
+      <h1 id="title-card-text"></h1>
+    </section>
+
+    <section id="modules" class="screen">
+      <div id="module-card"></div>
+      <div class="progress" id="module-progress"></div>
+    </section>
+
+    <section id="overall" class="screen">
+      <div class="big-mark" id="overall-mark">--</div>
+      <div class="sub" id="overall-decision"></div>
+      <button class="next-btn" id="to-summary-btn">Continue</button>
+    </section>
+
+    <section id="summary" class="screen">
+      <h2>That's everything.</h2>
+      <div class="summary-stats" id="summary-stats"></div>
+      <button class="next-btn" id="restart-btn">Watch Again</button>
+    </section>
+  </div>
+
+  <script src="reveal.js"></script>
+</body>
+</html>

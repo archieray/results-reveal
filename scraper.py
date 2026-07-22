@@ -62,6 +62,8 @@ def fetch_html(url: str) -> str:
                 f"Session expired or not logged in — redirected to:\n  {final_url}\n"
                 "Run: python3 scraper.py --login   then try again."
             )
+        # Give JS-rendered accordions a moment to finish populating the DOM
+        page.wait_for_timeout(2000)
         html = page.content()
         browser.close()
         return html

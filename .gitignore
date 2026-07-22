@@ -1,6 +1,7 @@
 auth_state.json
 results.json
 test_results.json
+mock_released.html
 raw_page.html
 raw_page.txt
 *.csv

@@ -1,4 +1,4 @@
-const RESULTS_URL = new URLSearchParams(location.search).get("data") || "../results.json";
+const RESULTS_URL = `../results.json?t=${Date.now()}`;
 
 const screens = {
   intro: document.getElementById("intro"),
